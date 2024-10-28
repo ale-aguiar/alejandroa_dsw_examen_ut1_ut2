@@ -15,9 +15,13 @@ class MessagesTableSeeder extends Seeder
         $messages = [
             [
                 "text" => "Ya puedes hacer el examen",
+                "negrita" => true,
+                "subrayado" => false,
             ],
             [
                 "text" => "Suerte!",
+                "negrita" => false,
+                "subrayado" => true,
             ],
         ];
 
